@@ -8,6 +8,7 @@
 				<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 				<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+				<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 				<style>
 
 				@media screen and (max-width: 768px) {
@@ -43,90 +44,26 @@
 						 color: #00b8e6;
 				 }
 
+				 .writing{
+					 font-family: 'Open Sans', sans-serif;
+				 }
+
+				 .bg-blue{
+					 background-color: #00b8e6;
+					 color: white;
+				 }
+
 				</style>
 		</head>
-		<body>
+		<body class="writing">
 
-				<div class="jumbotron text-center">
+				<div class="jumbotron text-center" style="margin-bottom: 0">
                         <h1>ionic</h1>
 						<p>a complete open-source SDK for hybrid mobile app development</p>
 				</div>
 
-				<div class="container-fluid text-center">
-						<div class="row">
-								<div class="col-sm-6 col-md-offset-1 text-left">
-										<h2>What is Ionic Framework?</h2>
-										<h4>
-												Built on top of AngularJS and Apache Cordova (formerly PhoneGap), Ionic provides tools and services for developing hybrid mobile apps using Web technologies like CSS, HTML5, and Sass.
-												<br>
-												<br>
-												Apps can be built with these Web technologies and then distributed through native app stores to be installed on devices by leveraging Cordova.
-										</h4>
-								</div>
-								<div class="col-sm-4">
-										<span class="glyphicon glyphicon-globe logo"></span>
-								</div>
-						</div>
-				</div>
-
-				<div class="container-fluid bg-grey text-center">
-						<div class="row">
-								<div class="col-sm-4">
-										<span class="glyphicon glyphicon-phone logo"></span>
-								</div>
-								<div class="col-sm-8">
-										<h2>Why use Ionic?</h2>
-										<h4><strong>TL;DR:</strong> "Ionic’s ultimate goal is to make it easier to develop native mobile apps with HTML5, also known as Hybrid apps.”</h4>
-								</div>
-						</div>
-				</div>
-
-
-				<div class="container-fluid text-center">
-						<h2>App Types</h2>
-						<br>
-						<div class="row">
-								<div class="col-sm-4">
-										<span class="glyphicon glyphicon-phone logo-small"></span>
-										<h2>Native</h2>
-										<h4><strong>What you install from the App Store</strong></h4>
-										<h4>+ : Fast, Advanced UI capabilities <br>  - : OS specific/limited</h4>
-								</div>
-								<div class="col-sm-4">
-										<span class="glyphicon glyphicon-list-alt logo-small"></span>
-										<h2>HTML5</h2>
-										<h4><strong>Your typical mobile site</strong></h4>
-										<h4>+: Multi-Platform, Instant Updates <br> - : Slow, Lacking Advanced UI
-										</h4>
-								</div>
-								<div class="col-sm-4">
-										<span class="glyphicon glyphicon-thumbs-up logo-small"></span>
-										<h2>Hybrid</h2>
-										<h4><strong>The Best of Both Worlds</strong></h4>
-										<h4>HTML5 Apps wrapped in a Native Container</h4>
-								</div>
-						</div>
-						<br><br>
-
-				</div>
-
 				<div class="container-fluid bg-grey">
 					<div class="col-sm-6 col-md-offset-1">
-							<h2>The History of Ionic Framework</h2>
-
-									<h4>
-										Ionic was created by Max Lynch, Ben Sperry, and Adam Bradley of Drifty Co. in 2013.
-									</h4>
-
-									<h4>
-									Taking feedback from customers who tried to build mobile apps, the team decided to build their own framework that would focus on performance and be built with modern Web standards, Ionic 1.0 was released in May 2015.
-									</h4>
-
-									<h4>
-										In 2015 Ionic developers reportedly created over 1.3M apps with the SDK
-									</h4>
-
-									<hr>
 
 									<h2>Ionic: A Foundation</h2>
 									<h4>Comparable to Bootstrap:  A starting point for developers w/ recommended design patterns</h4>
@@ -168,8 +105,81 @@
 					</div>
 				</div>
 
+				<div class="container-fluid text-center">
+						<div class="row">
+								<div class="col-sm-5 col-md-offset-2 text-left">
+										<h2>What is Ionic Framework?</h2>
+										<p class="writing">
+												Built on top of AngularJS and Apache Cordova (formerly PhoneGap), Ionic provides tools and services for developing hybrid mobile apps using Web technologies like CSS, HTML5, and Sass.
+												<br>
+												<br>
+												Apps can be built with these Web technologies and then distributed through native app stores to be installed on devices by leveraging Cordova.
+										</p class="writing">
+								</div>
+								<div class="col-sm-4">
+										<span class="glyphicon glyphicon-globe logo"></span>
+								</div>
+						</div>
+						<hr width="75%">
+						<div class="row">
+							<div class="col-sm-4 col-md-offset-2 text-left">
+								<h2>The History of Ionic Framework</h2>
 
-				<div class="container-fluid">
+										<p class="writing">
+											Ionic was created by Max Lynch, Ben Sperry, and Adam Bradley of Drifty Co. in 2013.
+										</p class="writing">
+
+										<p class="writing">
+										Taking feedback from customers who tried to build mobile apps, the team decided to build their own framework that would focus on performance and be built with modern Web standards, Ionic 1.0 was released in May 2015.
+									</p class="writing">
+
+										<p class="writing">
+											In 2015 Ionic developers reportedly created over 1.3M apps with the SDK
+										</p class="writing">
+
+						</div>
+				</div>
+			</div>
+
+			<div class="container-fluid bg-blue text-center">
+				<div class="col-sm-6 col-md-offset-3">
+						<h1>Why use Ionic?</h1>
+						<h3>TL;DR: "Ionic's ultimate goal is to make it easier to develop native mobile apps with HTML5, also known as Hybrid apps."
+				</div>
+			</div>
+
+				<div class="container-fluid text-center">
+						<h2>App Types</h2>
+						<br>
+						<div class="row">
+								<div class="col-sm-4">
+										<span class="glyphicon glyphicon-phone logo-small"></span>
+										<h2>Native</h2>
+										<h4><strong>What you install from the App Store</strong></h4>
+										<h4>+ : Fast, Advanced UI capabilities <br>  - : OS specific/limited</h4>
+								</div>
+								<div class="col-sm-4">
+										<span class="glyphicon glyphicon-list-alt logo-small"></span>
+										<h2>HTML5</h2>
+										<h4><strong>Your typical mobile site</strong></h4>
+										<h4>+: Multi-Platform, Instant Updates <br> - : Slow, Lacking Advanced UI
+										</h4>
+								</div>
+								<div class="col-sm-4">
+										<span class="glyphicon glyphicon-thumbs-up logo-small"></span>
+										<h2>Hybrid</h2>
+										<h4><strong>The Best of Both Worlds</strong></h4>
+										<h4>HTML5 Apps wrapped in a Native Container</h4>
+								</div>
+						</div>
+						<br><br>
+
+				</div>
+
+
+
+
+				<div class="container-fluid bg-grey">
 						<h2 class="text-center">Get started with Ionic Framework</h2>
 						<br>
 						<div class="col-sm-6 col-md-offset-3">
